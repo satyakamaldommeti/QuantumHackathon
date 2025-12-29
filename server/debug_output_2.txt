@@ -1,0 +1,41 @@
+﻿Connecting to: mongodb+srv://prashanth:prashanth@cluster0.mcuwliu.mongodb.net/?appName=Cluster0
+Connected to DB
+Saving conversation...
+node : Error: TypeError: 
+next is not a function
+At line:1 char:1
++ node debug_db.js 2>&1 | 
+Out-File -Encoding utf8 
+debug_output_2.txt
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          
+    : NotSpecified: (Error  
+  : TypeError: next is no   
+ t a function:String) []    
+, RemoteException
+    + FullyQualifiedErrorId 
+    : NativeCommandError
+ 
+    at model.<anonymous> (C:
+\Users\p.prashanth\aidspeak-
+first-aid\server\models\Conv
+ersation.js:53:5)
+    at Kareem.execPre (C:\Us
+ers\p.prashanth\aidspeak-fir
+st-aid\node_modules\kareem\i
+ndex.js:63:39)
+    at process.processTicksA
+ndRejections (node:internal/
+process/task_queues:105:5)
+    at async model.$__save (
+C:\Users\p.prashanth\aidspea
+k-first-aid\node_modules\mon
+goose\lib\model.js:369:5)
+    at async model.save (C:\
+Users\p.prashanth\aidspeak-f
+irst-aid\node_modules\mongoo
+se\lib\model.js:609:5)
+    at async testDB (C:\User
+s\p.prashanth\aidspeak-first
+-aid\server\debug_db.js:17:2
+3)
